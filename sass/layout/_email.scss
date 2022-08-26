@@ -1,0 +1,23 @@
+.email-list__item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.email-list__title {
+    margin-bottom: 16px;
+  width: 445px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.333;
+  color: var(--primary-title-color);
+}
+
+.email-list__text {
+    margin-bottom: 40px;
+  width: 445px;
+  line-height: 1.625;
+  color: var(--primary-text-color);
+}

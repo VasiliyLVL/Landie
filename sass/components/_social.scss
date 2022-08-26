@@ -1,0 +1,9 @@
+.social-list {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.social-list__icon {
+    fill: var(--social-icon-color);
+}

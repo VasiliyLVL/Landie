@@ -1,0 +1,26 @@
+.page-header {
+  position: absolute;
+  width: 100%;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin-right: 270px;
+}
+
+.nav-list__item:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-list__link {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--primary-nav-color);
+}

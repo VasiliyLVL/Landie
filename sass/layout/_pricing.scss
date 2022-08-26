@@ -1,0 +1,42 @@
+.price__title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.333;
+  text-align: center;
+  color: var(--primary-title-color);
+}
+
+.price__text {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 36px;
+  width: 600px;
+  line-height: 1.625;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.price__text-sum {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.32;
+  text-align: center;
+  letter-spacing: 1px;
+  color: var(--price-color);
+}
+
+.price__text-description {
+  margin-bottom: 60px;
+  line-height: 1.626;
+  text-align: center;
+  color: var(--log-color);
+}
+
+.price__text-advertising {
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 1.714;
+  text-align: center;
+  color: var(--secondery-text-color);
+}

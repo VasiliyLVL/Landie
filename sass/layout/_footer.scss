@@ -1,0 +1,31 @@
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 32px;
+    background-color: var(--footer-bg-color);
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper-border {
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 32px;
+    border-top: 1px solid var(--border-color);
+}
+
+.page-footer__copy {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.714;
+        color: var(--copy-color);
+}
+
+.nav-list__link-footer {
+    padding-top: 20px;
+    padding-bottom: 32px;
+    color: var(--secondery-nav-color);
+}

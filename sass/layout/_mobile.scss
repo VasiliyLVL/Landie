@@ -1,0 +1,53 @@
+.mobile-login-container-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-login-wrapper {
+    height: 100%;
+  margin-right: 30px;
+}
+
+.mobile-login-section__title {
+  margin-bottom: 16px;
+  width: 540px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.333;
+  color: var(--primary-title-color);
+}
+
+.mobile-login-section__text {
+  margin-bottom: 80px;
+  width: 540px;
+  line-height: 1.625;
+  color: var(--primary-text-color);
+}
+
+.mobile-login-list {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.mobile-login-list__item {
+  flex-basis: calc((100% - 2 * 15px) / 2);
+}
+
+.mobile-login-list__icon {
+
+  margin-bottom: 14px;
+}
+
+.mobile-login-list__title {
+  font-weight: 500;
+  line-height: 1.625;
+  color: var(--primary-title-color);
+}
+
+.mobile-login-list__text {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--secondery-text-color);
+}

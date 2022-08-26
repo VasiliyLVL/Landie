@@ -11,182 +11,212 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" type="text/css" />
     <title>Landie</title>
   </head>
   <body>
     <header class="page-header">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-list__item">
-            <a href="" class="nav-list__link">Home</a>
-          </li>
-          <li class="nav-list__item">
-            <a href="" class="nav-list__link">About</a>
-          </li>
-          <li class="nav-list__item">
-            <a href="" class="nav-list__link">Contact</a>
-          </li>
-        </ul>
-        <div class="logo nav-logo">
-          <a href="" class="nav-logo__link">Landie</a>
-        </div>
-      </nav>
-      <button class="btn" type="button">Buy Now</button>
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a href="" class="nav-list__link">Home</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="" class="nav-list__link">About</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="" class="nav-list__link">Contact</a>
+            </li>
+          </ul>
+          <a href="" class="logo header-logo">Landie</a>
+        </nav>
+        <button class="btn header-btn" type="button">Buy Now</button>
+      </div>
     </header>
     <main class="page-main">
-      <section class="section hero">
-        <h1 class="hero__title">
-          Introduce Your Product Quickly & Effectively
-        </h1>
-        <p class="hero__text">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-          consequat massa quis enim.
-        </p>
-        <button class="btn" type="button">Purchase UI Kit</button>
-        <button class="btn" type="button">Learn More</button>
-        <svg class="hero__img">
-          <use href=""></use>
-        </svg>
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="hero__title">
+            Introduce Your Product Quickly & Effectively
+          </h1>
+          <p class="hero__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim.
+          </p>
+          <button class="btn hero-btn" type="button">Purchase UI Kit</button>
+          <button class="btn hero-btn hero-btn__white-them" type="button">
+            Learn More
+          </button>
+        </div>
       </section>
-      <section class="section mobile-login">
-        <h2 class="section__title">Light, Fast & Powerful</h2>
-        <p class="section_text">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-          consequat massa quis enim.
-        </p>
-
-        <ul class="mobile-login-list">
-          <li class="mobile-login-list__item">
-            <svg class="mobile-login-list__icon">
-              <use href=""></use>
-            </svg>
-            <h3 class="mobile-login-list__title">Title Goes Here</h3>
-            <p class="mobile-login-list__text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor.
-            </p>
-          </li>
-          <li class="mobile-login-list__item">
-            <svg class="mobile-login-list__icon">
-              <use href=""></use>
-            </svg>
-            <h3 class="mobile-login-list__title">Title Goes Here</h3>
-            <p class="mobile-login-list__text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor.
-            </p>
-          </li>
-        </ul>
-        <svg class="mobile-login__img">
-          <use href=""></use>
-        </svg>
-      </section>
-      <section class="section email">
-        <ul class="email-list">
-          <li class="email-list__item">
-            <svg class="email-list__img">
-              <use href=""></use>
-            </svg>
-            <h2 class="email-list__title">Light, Fast & Powerful</h2>
-            <p class="email-list__text">
+      <section class="mobile-login-section">
+        <div class="container mobile-login-container-wrapper">
+          <div class="mobile-login-wrapper">
+            <h2 class="mobile-login-section__title">Light, Fast & Powerful</h2>
+            <p class="mobile-login-section__text">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor. Aenean massa. Cum sociis natoque
               penatibus et magnis dis parturient montes, nascetur ridiculus mus.
               Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
               sem. Nulla consequat massa quis enim.
             </p>
-          </li>
-          <li class="email-list__item">
-            <svg class="email-list__img">
-              <use href=""></use>
-            </svg>
-            <h2 class="email-list__title">Light, Fast & Powerful</h2>
-            <p class="email-list__text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-              sem. Nulla consequat massa quis enim.
-            </p>
-          </li>
-          <li class="email-list__item">
-            <svg class="email-list__img">
-              <use href=""></use>
-            </svg>
-            <h2 class="email-list__title">Light, Fast & Powerful</h2>
-            <p class="email-list__text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-              sem. Nulla consequat massa quis enim.
-            </p>
-          </li>
-        </ul>
+            <ul class="mobile-login-list">
+              <li class="mobile-login-list__item">
+                <svg class="mobile-login-list__icon" width="36" heigt="36">
+                  <use href="./images/icons.svg#icon-mobile-section"></use>
+                </svg>
+                <h3 class="mobile-login-list__title">Title Goes Here</h3>
+                <p class="mobile-login-list__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor.
+                </p>
+              </li>
+              <li class="mobile-login-list__item">
+                <svg class="mobile-login-list__icon" width="36" heigt="36">
+                  <use href="./images/icons.svg#icon-mobile-section"></use>
+                </svg>
+                <h3 class="mobile-login-list__title">Title Goes Here</h3>
+                <p class="mobile-login-list__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <img src="./images/mobile-login.svg" alt="mobile-login" />
+        </div>
       </section>
-      <section class="section price">
-        <h2 class="price__title">A Price To Suit Everyone</h2>
-        <p class="price__text">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus
-        </p>
-        <p class="price__text-sum">$40</p>
-        <p class="price__text-description">UI Design Kit</p>
-        <p class="price__text-advertising">See, One price. Simple.</p>
-        <button class="btn" type="button">Purchase Now</button>
+      <section class="email-section">
+        <div class="container">
+          <ul class="email-list">
+            <li class="email-list__item">
+              <img src="./images/email-img1.svg" alt="email-img1" />
+              <div class="email-list__wrapper">
+                <h2 class="email-list__title">Light, Fast & Powerful</h2>
+                <p class="email-list__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                  natoque penatibus et magnis dis parturient montes, nascetur
+                  ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+                  eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </p>
+              </div>
+            </li>
+            <li class="email-list__item">
+              <img src="./images/email-img2.svg" alt="email-img2" />
+              <div class="email-list__wrapper">
+                <h2 class="email-list__title">Light, Fast & Powerful</h2>
+                <p class="email-list__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                  natoque penatibus et magnis dis parturient montes, nascetur
+                  ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+                  eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </p>
+              </div>
+            </li>
+            <li class="email-list__item">
+              <img src="./images/email-img3.svg" alt="email-img3" />
+              <div class="email-list__wrapper">
+                <h2 class="email-list__title">Light, Fast & Powerful</h2>
+                <p class="email-list__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                  natoque penatibus et magnis dis parturient montes, nascetur
+                  ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+                  eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </p>
+                <button class="btn email-btn" type="button">
+                  Purchase Now
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="price-section">
+        <div class="container">
+          <h2 class="price__title">A Price To Suit Everyone</h2>
+          <p class="price__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus
+          </p>
+          <p class="price__text-sum">$40</p>
+          <p class="price__text-description">UI Design Kit</p>
+          <p class="price__text-advertising">See, One price. Simple.</p>
+          <button class="btn price-btn" type="button">Purchase Now</button>
+        </div>
       </section>
     </main>
     <footer class="page-footer">
-      <p class="page-footer__copy">©2020 Yourcompany</p>
-      <a href="" class="logo footer-logo">Landie</a>
-      <button class="btn" type="button">Purchase now</button>
-      <nav class="nav nav-footer">
-        <ul class="nav-list">
-          <li class="nav-list__item">
-            <a href="" class="nav-list__link">Home</a>
-          </li>
-          <li class="nav-list__item">
-            <a href="" class="nav-list__link">About</a>
-          </li>
-          <li class="nav-list__item">
-            <a href="" class="nav-list__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="social-list">
-        <li class="social-list__item">
-          <svg class="social-list__icon">
-            <use href=""></use>
-          </svg>
-        </li>
-        <li class="social-list__item">
-          <svg class="social-list__icon">
-            <use href=""></use>
-          </svg>
-        </li>
-        <li class="social-list__item">
-          <svg class="social-list__icon">
-            <use href=""></use>
-          </svg>
-        </li>
-        <li class="social-list__item">
-          <svg class="social-list__icon">
-            <use href=""></use>
-          </svg>
-        </li>
-        <li class="social-list__item">
-          <svg class="social-list__icon">
-            <use href=""></use>
-          </svg>
-        </li>
-      </ul>
+      <div class="container">
+        <div class="footer-wrapper">
+          <p class="page-footer__copy">©2020 Yourcompany</p>
+          <a href="" class="logo footer-logo">Landie</a>
+          <button class="btn footer-btn" type="button">Purchase now</button>
+        </div>
+        <div class="footer-wrapper footer-wrapper-border">
+          <nav class="nav nav-footer">
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <a href="" class="nav-list__link nav-list__link-footer">Home</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="" class="nav-list__link nav-list__link-footer">About</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="" class="nav-list__link nav-list__link-footer">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="social-list">
+            <li class="social-list__item">
+              <a href="" class="sosial-list__link"
+                ><svg class="social-list__icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="" class="sosial-list__link"
+                ><svg class="social-list__icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="" class="sosial-list__link"
+                ><svg class="social-list__icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="" class="sosial-list__link"
+                ><svg class="social-list__icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="" class="sosial-list__link"
+                ><svg class="social-list__icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-in"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
