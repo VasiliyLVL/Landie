@@ -2,11 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+    @media screen and (max-width: 480px) {
+        width: 100%;
+      }
+  @media screen and (max-width: 1199px) {
+    display: block;
+  }
 }
 
 .mobile-login-wrapper {
-    height: 100%;
+  height: 100%;
   margin-right: 30px;
+  @media screen and (max-width: 767px) {
+    margin-right: 0;
+  }
 }
 
 .mobile-login-section__title {
@@ -16,6 +25,9 @@
   font-size: 36px;
   line-height: 1.333;
   color: var(--primary-title-color);
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
 }
 
 .mobile-login-section__text {
@@ -23,6 +35,9 @@
   width: 540px;
   line-height: 1.625;
   color: var(--primary-text-color);
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
 }
 
 .mobile-login-list {
@@ -36,7 +51,6 @@
 }
 
 .mobile-login-list__icon {
-
   margin-bottom: 14px;
 }
 
@@ -50,4 +64,10 @@
   font-size: 12px;
   line-height: 1.5;
   color: var(--secondery-text-color);
+}
+
+@media screen and (max-width: 1199px) {
+  .mobile-login-section__img {
+    display: none;
+  }
 }

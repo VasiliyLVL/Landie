@@ -5,12 +5,19 @@
 .nav {
   display: flex;
   align-items: center;
+  @media screen and (max-width: 767px) {
+    order: 1;
+  }
 }
 
 .nav-list {
   display: flex;
   align-items: center;
-  margin-right: 270px;
+
+  // @media screen and (max-width:767px) {
+  //   justify-content: space-between;
+  //   margin-right: 0;
+  // }
 }
 
 .nav-list__item:not(:last-child) {
@@ -23,4 +30,7 @@
   font-size: 14px;
   line-height: 1.714;
   color: var(--primary-nav-color);
+    @media screen and (max-width: 767px) {
+  font-size: 20px;
+      }
 }

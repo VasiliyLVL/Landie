@@ -6,6 +6,10 @@
   line-height: 1.32;
   letter-spacing: 1px;
   color: var(--primary-title-color);
+
+  @media screen and (max-width:767px) {
+      width: 100%;
+  }
 }
 
 .hero__text {
@@ -14,4 +18,7 @@
   font-size: 18px;
   line-height: 1.667;
   color: var(--text-color-hero);
+    @media screen and (max-width:767px) {
+        width: 100%;
+      }
 }

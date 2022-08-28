@@ -5,11 +5,20 @@
   background-size: contain;
   padding-top: 302px;
   padding-bottom: 386px;
+  @media screen and (max-width: 1199px) {
+    background-image: none;
+    padding-top: 160px;
+    padding-bottom: 30px;
+  }
 }
 
 .mobile-login-section {
   padding-top: 110px;
   padding-bottom: 110px;
+  @media screen and (max-width: 1199px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .price-section {
@@ -19,4 +28,8 @@
   background-position-x: 50%;
   padding-top: 238px;
   padding-bottom: 176px;
+  @media screen and (max-width: 1199px) {
+    background-image: none;
+    background-color: #f3f6ff;
+  }
 }

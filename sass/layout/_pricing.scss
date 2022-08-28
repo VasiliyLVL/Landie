@@ -5,6 +5,9 @@
   line-height: 1.333;
   text-align: center;
   color: var(--primary-title-color);
+    @media screen and (max-width: 1199px) {
+        width: 100%;
+      }
 }
 
 .price__text {
@@ -15,6 +18,9 @@
   line-height: 1.625;
   text-align: center;
   color: var(--primary-text-color);
+  @media screen and (max-width: 1199px) {
+      width: 100%;
+  }
 }
 
 .price__text-sum {
@@ -24,6 +30,9 @@
   text-align: center;
   letter-spacing: 1px;
   color: var(--price-color);
+    @media screen and (max-width: 1199px) {
+        width: 100%;
+      }
 }
 
 .price__text-description {
